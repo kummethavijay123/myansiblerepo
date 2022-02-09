@@ -12,5 +12,5 @@
 
 
 [webservers:vars]
-webserverpackforubuntu=apache22222
+webserverpackforubuntu=apache2
 webserverpackforredhat=httpd
