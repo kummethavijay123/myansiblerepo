@@ -16,13 +16,13 @@
 
   - name: install webserver on redhat nodes
     yum:
-     name: htppd
+     name: httpd
      state: present
     when: ansible_os_family =="RedHat"
 
   - name: start webserver on redhat nodes 
     service:
-     name: htppd
+     name: httpd
      state: started
     when: ansible_os_family =="RedHat"
  
