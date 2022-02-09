@@ -2,3 +2,15 @@
 54.149.134.198
 54.189.185.70
 18.237.28.167
+
+[applications]
+60.180.25.16
+18.234.28.167
+
+[db server]
+54.149.315.195
+
+
+[webservers:vars]
+webserverpackforubuntu=apache2
+webserverpackforredhat=httpd
