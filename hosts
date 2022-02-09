@@ -1,4 +1,4 @@
-[webservers]
+[mywebservers]
 54.189.185.70
 18.237.28.167
 54.149.134.198
@@ -11,6 +11,6 @@
 54.149.315.195
 
 
-[webservers:vars]
-webserverpackforubuntu=apache2
-webserverpackforredhat=httpd
+[mywebservers:vars]
+mywebserverpackforubuntu=apache2
+mywebserverpackforredhat=httpd
